@@ -1,0 +1,45 @@
+[Data Source]
+DisplayName=Holidays in India
+Enabled=true
+Parent=4008c8c58e2693f75b9a5c527c9b2add467cd39b
+
+[Authentication]
+Host=apidata.googleusercontent.com
+Method=OAuth2
+Port=443
+ProxyUid=system-proxy
+RememberPassword=true
+User=saikumarr9@gmail.com
+CredentialName=
+
+[Security]
+Method=tls
+
+[Resource]
+Identity=events::https://apidata.googleusercontent.com/caldav/v2/cln2sqbechkm2rh3d1nmoqb4c5sk0pridtqn0bjm5phm2r35dpi62shectnmuprcckn66rrd%40virtual/events/
+
+[WebDAV Backend]
+AvoidIfmatch=false
+CalendarAutoSchedule=true
+Color=#4986e7
+DisplayName=Holidays in India
+EmailAddress=
+ResourcePath=/caldav/v2/cln2sqbechkm2rh3d1nmoqb4c5sk0pridtqn0bjm5phm2r35dpi62shectnmuprcckn66rrd%40virtual/events/
+ResourceQuery=
+SslTrust=
+
+[Calendar]
+BackendName=caldav
+Color=#4986e7
+Selected=true
+
+[Alarms]
+IncludeMe=true
+LastNotified=2020-05-10T14:49:51.644193Z
+
+[Offline]
+StaySynchronized=true
+
+[Refresh]
+Enabled=true
+IntervalMinutes=30

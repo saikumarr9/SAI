@@ -1,0 +1,16 @@
+[Data Source]
+DisplayName=Contacts
+Enabled=true
+Parent=4008c8c58e2693f75b9a5c527c9b2add467cd39b
+
+[Authentication]
+Host=www.google.com
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=saikumarr9@gmail.com
+CredentialName=
+
+[Address Book]
+BackendName=google

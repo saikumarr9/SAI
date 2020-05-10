@@ -1,0 +1,25 @@
+[Data Source]
+DisplayName=sai kumar Reddy's list
+Enabled=true
+Parent=4008c8c58e2693f75b9a5c527c9b2add467cd39b
+
+[Authentication]
+Host=www.google.com
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=saikumarr9@gmail.com
+CredentialName=
+
+[Resource]
+Identity=gtasks::MTEzMTAxMzgzMTYxNDgxMjYxNzg6MDow
+
+[Alarms]
+IncludeMe=false
+LastNotified=
+
+[Task List]
+BackendName=gtasks
+Color=#becedd
+Selected=true

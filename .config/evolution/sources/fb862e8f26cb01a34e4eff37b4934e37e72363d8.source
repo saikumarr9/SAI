@@ -1,0 +1,56 @@
+[Data Source]
+DisplayName=saikumarr9@gmail.com
+Enabled=true
+Parent=4008c8c58e2693f75b9a5c527c9b2add467cd39b
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=2e659866db7579ea2f5d8cc6e0635d0ade571cca
+ArchiveFolder=
+NeedsInitialSetup=true
+MarkSeen=inconsistent
+MarkSeenTimeout=1500
+
+[Authentication]
+Host=imap.gmail.com
+Method=XOAUTH2
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=saikumarr9@gmail.com
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Offline]
+StaySynchronized=false
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=
+RealTrashPath=
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=true
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=false
+UseRealTrashPath=false
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false
+FullUpdateOnMeteredNetwork=true
